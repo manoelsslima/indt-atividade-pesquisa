@@ -18,10 +18,11 @@ class Pessoa { // questao 1 - classe eh o modelo de objeto
         return this.idade;
     }
 
-    public seApresentar(): string {
-        return `Olá! Meu nome é ${this.nome}. Tenho ${this.idade} anos.`;
+    public seApresentar(): void {
+        console.log(`Olá! Meu nome é ${this.nome}. Tenho ${this.idade} anos.`);
     }
 }
 
 // questao 2 - objeto eh o objeto concreto, criado a partir da classe
 const manoel = new Pessoa("Manoel", 99);
+manoel.seApresentar();
