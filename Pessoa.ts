@@ -1,4 +1,4 @@
-class Pessoa { // questao 1 - classe eh o modelo de objeto
+export default class Pessoa { // questao 1 - classe eh o modelo de objeto
 
     private nome: string; // questao 2- atributos
     private idade: number; // questao 3 - atributo private
@@ -22,7 +22,3 @@ class Pessoa { // questao 1 - classe eh o modelo de objeto
         console.log(`Olá! Meu nome é ${this.nome}. Tenho ${this.idade} anos.`);
     }
 }
-
-// questao 2 - objeto eh o objeto concreto, criado a partir da classe
-const manoel = new Pessoa("Manoel", 99);
-manoel.seApresentar();
