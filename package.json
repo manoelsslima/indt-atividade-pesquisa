@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/manoelsslima/indt-atividade-pesquisa/issues"
   },
-  "homepage": "https://github.com/manoelsslima/indt-atividade-pesquisa#readme"
+  "homepage": "https://github.com/manoelsslima/indt-atividade-pesquisa#readme",
+  "devDependencies": {
+    "@types/node": "^25.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
 }
